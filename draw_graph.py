@@ -1,16 +1,6 @@
 import matplotlib.pyplot as plt
 from networkx import nx
-import sys
-import csv
 import re
-
-def latlong2(filename):
-  ret = {}
-  with open(filename) as f:
-    reader = csv.reader(open(filename))
-    for line in reader:
-      ret[line[0]] = (int(line[1]), int(line[2]), int(line[3]), int(line[4]))
-  return ret
 
 def latlong(filename):
   ret = {}
@@ -72,4 +62,3 @@ if __name__ == '__main__':
   #  exit()
   #drawGraph(sys.argv[1])
   drawGraph('edges2')
-  #latlong('latlong.csv')
