@@ -48,7 +48,7 @@ def drawGraph(filename):
       
   #pos=nx.graphviz_layout(g,prog="fdp")
   #pos=nx.spring_layout(g)
-  plt.figure(figsize=(12,8))
+  plt.figure(figsize=(10,8))
   #plt.axis('off')
   plt.xticks([]), plt.yticks([])
   nx.draw_networkx_nodes(g, pos = pos, node_color = 'red', node_size = 30, with_labels=False)
