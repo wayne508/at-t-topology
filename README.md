@@ -1,4 +1,4 @@
-# AT&T topology
+# ISP topology in US
 
 Edges data：http://www.cs.washington.edu/research/projects/networking/www/rocketfuel/
 
